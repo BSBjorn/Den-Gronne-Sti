@@ -41,3 +41,9 @@ if ($allergener) : ?>
 			<?php endforeach; ?>
 	</ul>
 <?php endif ; ?>
+
+<?php $ingredienser = get_field('ingredienser');
+if ($ingredienser) : ?>
+	<h3>Ingredienser</h3>
+		<?php echo $ingredienser; ?>
+	<?php endif;?>
