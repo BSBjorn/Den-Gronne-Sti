@@ -1,0 +1,63 @@
+/**
+ * modules/variables
+ * ---
+ */
+
+
+/**
+ * Typography
+ */
+
+$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+$font-weight-base: 400;
+$link-decoration: none;
+$link-hover-decoration: $link-decoration;
+$dt-font-weight: $font-weight-base;
+$text-muted: #F2f2f2;
+
+
+$headings-margin-bottom: 1.5rem !default;
+
+$h1-font-size:   2.5rem !default;
+$h2-font-size:   2rem !default;
+$h3-font-size:   1.75rem !default;
+$h4-font-size:   1.5rem !default;
+$h5-font-size:   1.25rem !default;
+$h6-font-size:   1rem !default;
+
+
+$paragraph-margin-bottom: 1rem !default;
+
+
+$table-cell-padding:          .75rem !default;
+$table-cell-padding-sm: .3rem !default;
+
+/**
+ * Colors
+ */
+
+$text-color: #5e5b52;
+$link-color: #ff8c42;
+$link-hover-color: darken($link-color, 15%);
+
+
+$body-bg: #fff;
+$body-color: #131313;
+$selection-bg: #04A4CC;
+
+
+/**
+ * Grid
+ */
+
+$wrapper-width: 1280px;
+
+
+$padding-horizontal-base: 5px;
+$padding-vertical-base: 5px;
+$margin-horizontal-base: 5px;
+$margin-vertical-base: 5px;
+$margin-horizontal-large: 15px;
+$margin-vertical-large: 15px;
