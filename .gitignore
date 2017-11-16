@@ -1,3 +1,4 @@
 .ftpconfig
 
 plugins/
+storefront_child/node_modules/
